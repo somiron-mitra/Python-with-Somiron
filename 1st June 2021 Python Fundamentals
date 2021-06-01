@@ -1,0 +1,102 @@
+# Type Conversion
+
+# type conversion is basically used to convert a data type from one form to another.
+
+# So here i have string 10010 which i want to conver into an integer
+# and this number that i am wanting to convert into an integer will be in the form of a binary number.  
+
+
+s = "10010" # Start String 
+
+c = int(s, 2) # printing string converting to int base 2
+
+print("After converting to integer base 2 :%d" % c, end="\n")
+
+
+# reason that i am getting 18 is because 10010 in bibary is 18
+
+
+
+
+# Here we have a floating number which we are converting into a floating number.
+
+e = float(s) # printing string converting to float
+
+print("After converting to float : %f" % e, end="\n")
+
+# here number 10010 is converting into a floating number.
+# so the 10010 in floating number is 10010.000000 upto n numbers
+
+
+
+#  so the type conversions that we follow are called as explicit type conversions
+
+# and the type conversions that python does by itself are called as implicit type conversions
+
+
+
+
+# here we have a string that has a value 4
+
+s = '4' # initializing integer
+
+# now i want to convert it into an integer which is done using the "odr" function
+
+c = ord(s) # printing character converting to integer
+
+print("After converting character to integer : %c" % c, end="\n")
+
+
+
+
+# printing integer converting to hexadecimal string
+
+c = hex(56)
+
+# now i am using hex funtion to convert the integer to hexadecimal number
+
+print("After converting 56 to hexadecimal string : " + c, end="\n")
+
+
+
+
+# printing integer converting to octal string
+
+c = oct(56)
+
+# i want the oct funtion to convert the integer to octal number
+
+print("After converting 56 to octal string : " + c, end="\n")
+
+
+
+
+# here i have a string somiron
+
+s = 'somiron' # initializing string
+
+# printing string converting to tuple
+
+c = tuple(s)
+
+print("After converting string to tuple : ", c, end="\n")
+
+
+
+
+# here printing string converting to set
+
+c = set(s)
+
+print("After converting string to set : ", c, end="\n")
+
+
+
+
+# here printing string converting to list
+
+c = list(s)
+
+print("After converting string to list : ", c, end="\n")
+
+
